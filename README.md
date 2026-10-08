@@ -14,6 +14,8 @@ analog OUT to A0, and share ground. Use suitable external I²C pull-ups
 AREF unconnected with the default firmware. I²C runs at 100 kHz, address `0x78`.
 Set the supply-voltage constants in `src/main.cpp` to measured values.
 
+For my calibration I did not use external pull-ups and did also not change the voltage constants. Because I am lazy, and it seemed to work fine anyway.
+
 ## Build and run
 
 ```sh
